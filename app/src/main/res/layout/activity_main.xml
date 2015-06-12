@@ -18,70 +18,40 @@
             android:layout_alignParentTop="true" />
 
     <com.example.udacity.appportfolio.ToasterButton
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="SPOTIFY STREAMER"
+            style="@style/AppButton"
             android:id="@+id/button1"
             android:layout_below="@id/textView"
-            android:layout_centerHorizontal="true"
-            android:layout_marginLeft="100dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp" />
+            android:text="SPOTIFY STREAMER" />
 
     <com.example.udacity.appportfolio.ToasterButton
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
+            style="@style/AppButton"
             android:text="SCORES APP"
             android:id="@+id/button2"
-            android:layout_below="@id/button1"
-            android:layout_centerHorizontal="true"
-            android:layout_marginLeft="100dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp" />
+            android:layout_below="@id/button1" />
 
     <com.example.udacity.appportfolio.ToasterButton
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
+            style="@style/AppButton"
             android:text="LIBRARY APP"
             android:id="@+id/button3"
-            android:layout_below="@id/button2"
-            android:layout_centerHorizontal="true"
-            android:layout_marginLeft="100dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp" />
+            android:layout_below="@id/button2" />
 
     <com.example.udacity.appportfolio.ToasterButton
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
+            style="@style/AppButton"
             android:text="BUILD IT BIGGER"
             android:id="@+id/button4"
-            android:layout_below="@id/button3"
-            android:layout_centerHorizontal="true"
-            android:layout_marginLeft="100dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp" />
+            android:layout_below="@id/button3" />
 
     <com.example.udacity.appportfolio.ToasterButton
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
+            style="@style/AppButton"
             android:text="XYZ READER"
             android:id="@+id/button5"
-            android:layout_below="@id/button4"
-            android:layout_centerHorizontal="true"
-            android:layout_marginLeft="100dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp" />
+            android:layout_below="@id/button4" />
 
     <com.example.udacity.appportfolio.ToasterButton
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
+            style="@style/AppButton"
             android:text="CAPSTONE: MY OWN APP"
             android:id="@+id/button6"
-            android:layout_below="@id/button5"
-            android:layout_centerHorizontal="true"
-            android:layout_marginLeft="100dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp" />
+            android:layout_below="@id/button5" />
 
 
 </RelativeLayout>
