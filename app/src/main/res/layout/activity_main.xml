@@ -13,7 +13,7 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:layout_centerHorizontal="true"
-            android:text="My Nanodegree Apps!"
+            android:text="@string/my_nanondegree_apps_header"
             android:id="@+id/textView"
             android:layout_alignParentTop="true" />
 
@@ -21,35 +21,35 @@
             style="@style/AppButton"
             android:id="@+id/button1"
             android:layout_below="@id/textView"
-            android:text="SPOTIFY STREAMER" />
+            android:text="@string/spotify_streamer_button_label" />
 
     <com.example.udacity.appportfolio.ToasterButton
             style="@style/AppButton"
-            android:text="SCORES APP"
+            android:text="@string/scores_app_button_label"
             android:id="@+id/button2"
             android:layout_below="@id/button1" />
 
     <com.example.udacity.appportfolio.ToasterButton
             style="@style/AppButton"
-            android:text="LIBRARY APP"
+            android:text="@string/library_app_button_label"
             android:id="@+id/button3"
             android:layout_below="@id/button2" />
 
     <com.example.udacity.appportfolio.ToasterButton
             style="@style/AppButton"
-            android:text="BUILD IT BIGGER"
+            android:text="@string/build_it_bigger_button_label"
             android:id="@+id/button4"
             android:layout_below="@id/button3" />
 
     <com.example.udacity.appportfolio.ToasterButton
             style="@style/AppButton"
-            android:text="XYZ READER"
+            android:text="@string/xyz_reader_button_label"
             android:id="@+id/button5"
             android:layout_below="@id/button4" />
 
     <com.example.udacity.appportfolio.ToasterButton
             style="@style/AppButton"
-            android:text="CAPSTONE: MY OWN APP"
+            android:text="@string/capstone_button_label"
             android:id="@+id/button6"
             android:layout_below="@id/button5" />
 
