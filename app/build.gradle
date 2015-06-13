@@ -11,8 +11,7 @@ android {
         versionCode 1
         versionName "1.0"
         //espresso
-        testInstrumentationRunner
-        "android.support.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
@@ -25,6 +24,7 @@ android {
     packagingOptions {
         exclude 'LICENSE.txt'
     }
+
 }
 
 dependencies {
@@ -35,4 +35,5 @@ dependencies {
     androidTestCompile 'com.android.support.test:runner:0.3'
     androidTestCompile 'com.android.support.test:rules:0.3'
     androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2'
+//    androidTestCompile 'com.android.support.test:testing-support-lib:0.1'
 }
