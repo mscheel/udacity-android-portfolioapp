@@ -17,41 +17,46 @@
             android:id="@+id/textView"
             android:layout_alignParentTop="true" />
 
-    <com.example.udacity.appportfolio.ToasterButton
-            style="@style/AppButton"
-            android:id="@+id/button1"
+    <Button
+            style="@style/AppButtonMaterial"
+            android:id="@+id/button_spotify"
             android:layout_below="@id/textView"
-            android:text="@string/spotify_streamer_button_label" />
+            android:text="@string/spotify_streamer_button_label"
+            android:onClick="buttonClick"/>
 
-    <com.example.udacity.appportfolio.ToasterButton
-            style="@style/AppButton"
+    <Button
+            style="@style/AppButtonMaterial"
             android:text="@string/scores_app_button_label"
-            android:id="@+id/button2"
-            android:layout_below="@id/button1" />
+            android:id="@+id/button_scores"
+            android:layout_below="@id/button_spotify"
+            android:onClick="buttonClick"/>
 
-    <com.example.udacity.appportfolio.ToasterButton
-            style="@style/AppButton"
+    <Button
+            style="@style/AppButtonMaterial"
             android:text="@string/library_app_button_label"
-            android:id="@+id/button3"
-            android:layout_below="@id/button2" />
+            android:id="@+id/button_library"
+            android:layout_below="@id/button_scores"
+            android:onClick="buttonClick"/>
 
-    <com.example.udacity.appportfolio.ToasterButton
-            style="@style/AppButton"
+    <Button
+            style="@style/AppButtonMaterial"
             android:text="@string/build_it_bigger_button_label"
-            android:id="@+id/button4"
-            android:layout_below="@id/button3" />
+            android:id="@+id/button_bigger"
+            android:layout_below="@id/button_library"
+            android:onClick="buttonClick"/>
 
-    <com.example.udacity.appportfolio.ToasterButton
-            style="@style/AppButton"
+    <Button
+            style="@style/AppButtonMaterial"
             android:text="@string/xyz_reader_button_label"
-            android:id="@+id/button5"
-            android:layout_below="@id/button4" />
+            android:id="@+id/button_xyz"
+            android:layout_below="@id/button_bigger"
+            android:onClick="buttonClick"/>
 
-    <com.example.udacity.appportfolio.ToasterButton
-            style="@style/AppButton"
+    <Button
+            style="@style/AppButtonMaterialTwo"
             android:text="@string/capstone_button_label"
-            android:id="@+id/button6"
-            android:layout_below="@id/button5" />
-
+            android:id="@+id/button_capstone"
+            android:layout_below="@id/button_xyz"
+            android:onClick="buttonClick"/>
 
 </RelativeLayout>
